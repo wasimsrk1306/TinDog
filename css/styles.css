@@ -1,0 +1,186 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+
+  color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 7% 7%;
+
+}
+
+.navbar {
+  padding: 0;
+  margin-bottom: 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar-brand:hover{
+  color: #fff;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-item{
+  padding: 0 3%;
+}
+
+.nav-link:hover{
+  color: gray;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.btn {
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3% 5%;
+}
+
+.phone {
+  transform: rotate(25deg);
+  width: 65%;
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 7%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  /* width: 60%; */
+}
+
+.feature-box p {
+  color: gray;
+}
+
+.fa-5x {
+  color: #ff4c68;
+  margin: 5% auto;
+}
+
+.fa-5x:hover {
+  color: #ff7281;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+#press {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.press-image {
+  width: 17%;
+  padding: 3%;
+}
+
+#testimonials h2 {
+  margin-bottom: 7%;
+}
+
+.carousel-inner {
+  padding: 7% 7%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 25px;
+}
+
+#pricing .row{
+  padding: 5% 0;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 7%;
+}
+
+#cta .btn{
+  padding: 1% 2%;
+  margin: 7% 3% 2%;
+}
+
+#cta h3{
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 7% 3%;
+}
+
+.fa-2x{
+  padding: 0 5%;
+  cursor: pointer;
+}
+
+#footer p{
+
+    margin: 3% auto 0;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+}
